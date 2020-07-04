@@ -54,6 +54,7 @@ def for_the_win():
     print_pause("The whole kingdom loves your design and you recieve the reward.")
 
 def tailor():
+    global magical_skills
     print_pause("You walk through the flower field and head to the town.")
     print_pause("As you walk into the tailor's place, happy and smiling, you stumble and fall.")
     print_pause("Oh no, you hurt yourself!")
@@ -74,6 +75,7 @@ def tailor():
             back_to_field()
 
 def house():
+    global magical_skills
     print_pause("You walk to the tiny house and knock on the door.")
     print_pause("Nothing happens.")
     print_pause("You knock again.")
@@ -104,6 +106,7 @@ def you_win():
     print_pause("Congratulations, you have impressed the whole kingdom!")
 
 def play_again():
+    global magical_skills
     magical_skills = []
     print_pause("Would you like to play again? y/n")
     play = input()
